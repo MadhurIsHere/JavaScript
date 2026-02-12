@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+
+let numbers = [10,20,30,40];
+
+for(let i=0;i<numbers.length;i++){
+    document.write(numbers[i] + "<br>");
+}
+
+const sum = (arr) => {
+    let total = 0;
+    for(let x of arr){
+        total += x;
+    }
+    return total;
+};
+
+numbers = [...numbers,50,60];
+
+let result = sum(numbers);
+
+alert("Sum of array elements = " + result);
+
+</script>
+
+</body>
+</html>

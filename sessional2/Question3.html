@@ -1,0 +1,41 @@
+  <!doctype html>
+  <html>
+    <head>
+      <title>Flexbox Example</title>
+
+      <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #fffefe00;
+        }
+        .container {
+          padding: 10px;
+          display: flex;
+          justify-content: center;
+          gap: 20px;
+          margin-top: 50px;
+        }
+
+        .box {
+          width: 100px;
+          height: 100px;
+          background-color: steelblue;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 18px;
+        }
+      </style>
+    </head>
+
+    <body>
+      <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+      </div>
+    </body>
+  </html>

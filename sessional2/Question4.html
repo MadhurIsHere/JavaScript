@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CSS Position Properties</title>
+
+    <style>
+        body{
+            background-color:rgb(181, 177, 177);
+        }
+      .box {
+        width: 200px;
+        height: 200px;
+        border: 2px solid rgb(172, 166, 166);
+        padding: 10px;
+        margin: 10px;
+        box-shadow: 10px 10px 10px black;
+
+      }
+
+      .static {
+        position: static;
+        background-color: rgb(151, 218, 17);
+      }
+
+      .relative {
+        position: relative;
+        top: 20px;
+        left: 20px;
+        background-color: rgb(26, 178, 229);
+      }
+
+      .absolute {
+        position: absolute;
+        top: 300px;
+        left: 300px;
+        background-color: rgb(14, 226, 14);
+      }
+
+      .fixed {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: rgb(215, 29, 29);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box static">Static Position</div>
+
+    <div class="box relative">Relative Position</div>
+
+    <div class="box absolute">Absolute Position</div>
+
+    <div class="box fixed">Fixed Position</div>
+  </body>
+</html>

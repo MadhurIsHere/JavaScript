@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Block Level Elements</title>
+  <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        display: grid;
+        grid-column: 1;
+        justify-content: center;
+        background-color: rgb(79, 199, 199);
+    }
+
+    .section {
+      border: 2px solid rgb(0, 22, 218);
+      margin: 20px;
+      padding: 15px;
+      border-radius: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color:rgb(205, 233, 255);
+    }
+
+    img {
+      padding: 10px;
+      width: 500px;
+      height: 400px;
+      display: block; 
+      margin: 10px;
+      border-radius:60px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background: blueviolet;
+      border-radius: 20px;
+      color:wheat;
+      font-size: x-large;
+    }
+    button:hover{
+        background-color: wheat;
+        color: blueviolet;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="section">
+    <h2>Block Level Elements</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit quam accusamus! At laborum qui similique eum fugit corrupti! Qui temporibus dicta, non earum neque amet explicabo voluptates dolores atque, sunt animi voluptas sequi quam minus nisi, sapiente totam! Numquam molestiae, explicabo aliquam placeat facere fugit! Commodi, assumenda! Corporis, facilis! Suscipit nam dolore, optio unde quasi numquam eaque nostrum officiis eius reprehenderit aut consequatur fuga in dicta, modi explicabo exercitationem distinctio tempore autem libero! Asperiores accusantium sint officiis saepe aspernatur corporis ratione quo facere consequuntur suscipit corrupti eligendi doloremque magni dolorem quasi deleniti molestias illum fugit quibusdam, provident dolore porro?
+    </p>
+    <img src="https://thewowstyle.com/wp-content/uploads/2015/01/nature-images..jpg" alt="Sample Image">
+  </div>
+
+  <div class="section border-radius-10px">
+    <button>Click Me</button>
+  </div>
+
+</body>
+</html>
